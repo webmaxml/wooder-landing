@@ -9,3 +9,6 @@ include: ["_pages"]
 
 # keep these folders in destination folder when rebuilding site
 keep_files: ["css", "js", "img", "fonts"]
+
+collections:
+  - blocks

@@ -1,0 +1,13 @@
+@use '../functions' as *;
+@use '../mixins' as *;
+
+@mixin b-menu-text($action: 'content', $args...) {
+  .b-menu-text {
+    @include common-actions($action, $args...) { @content; };
+    @if $action == 'init' { @include _init($args...); }
+  }
+}
+
+@mixin _init {
+  font-family: var(--ff-text);
+}

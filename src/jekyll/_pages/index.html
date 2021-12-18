@@ -5,12 +5,12 @@ title: home
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
+  {% include meta.html %}
   {% include style.html %}
-  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  {% include blocks/menu-text.html %}
+  <i class="far fa-angry"></i>
   <p>some home content</p>
 </body>
 </html>

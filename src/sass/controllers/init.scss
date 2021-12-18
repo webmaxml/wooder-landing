@@ -9,12 +9,17 @@
 
 @include assets.reset;
 @include assets.normalize;
+@include assets.fontawesome;
 @include assets.vars;
+@include assets.fonts;
+@include assets.icons;
+@include assets.common;
 
 // }>>
 
 // <<{ blocks
 
+@include b-menu-text('init');
 
 // }>>
 
