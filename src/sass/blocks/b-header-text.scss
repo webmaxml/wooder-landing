@@ -1,5 +1,5 @@
-@use 'sass-scripts/functions' as *;
-@use 'sass-scripts/mixins' as *;
+@use '../functions' as *;
+@use '../mixins' as *;
 
 @mixin b-header-text($action: 'content', $args...) {
   .b-header-text {
