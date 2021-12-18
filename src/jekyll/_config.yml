@@ -1,0 +1,11 @@
+# where to put generated site (container /dist is bound to ${PWD}/dist)
+destination: /dist 
+
+# exclude these files from processing
+exclude: ["Gemfile", "Gemfile.lock", "node_modules"]
+
+# files started with . and _ are not processed by default
+include: ["_pages"]
+
+# keep these folders in destination folder when rebuilding site
+keep_files: ["css", "js"]
